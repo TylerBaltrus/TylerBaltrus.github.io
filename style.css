@@ -1,0 +1,36 @@
+body {
+	background: url(https://images.unsplash.com/photo-1495207891418-d31dfd782030?dpr=1&auto=format&fit=crop&w=767&h=511&q=60&cs=tinysrgb) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	height: 100px;
+	line-height: 100px;
+	white-space: wrap;
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	margin-top: 400px;
+}
+
+nav {
+	text-align: center;
+}
+
+.btn-primary {
+	background-color: rgb(212, 106, 106);
+	border-color: rgb(85, 0, 0);
+	position: relative;
+	bottom: 25px;
+}
+
+.btn-primary:hover {
+	background-color: rgb(85, 0, 0);
+	border-color: rgb(212, 106, 106);
+}
+
+.btn-primary:active:focus {
+	color: rgb(85, 0, 0);
+}
